@@ -21,7 +21,7 @@
     "package",
     "packager"
   ],
-  "author": "Anthony McLin",
+  "author": "Anthony McLin, Mahidhar Chaluvadi",
   "license": "MIT",
   "engines": {
     "node": ">=18"
