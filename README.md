@@ -6,6 +6,7 @@
 
 # aem-packager
 `This repo is a fork from https://github.com/amclin/aem-packager which resolves an open issue with version of maven filevault-package-plugin`
+
 Creates AEM packages for NodeJS projects that can then be installed through the Adobe Experience Manager package manager. Combined with the [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) this provides a rich end-to-end workflow for developing JS and CSS for injection into AEM as components, libraries, applications, or contents.
 
 1.  [Using](#using)
@@ -21,7 +22,7 @@ Creates AEM packages for NodeJS projects that can then be installed through the 
 
 Install **aem-packager** as a dependency for your NodeJS project:
 
-`npm install --save aem-packager`
+`npm install --save aem-packager-v2`
 
 Add the Maven working directory to your `.gitignore` so you don't have unecessary files in your source control:
 
@@ -261,7 +262,5 @@ Force the version number that will be used for the AEM content package. When not
 
 ## More Info
 
-*   Need more help in getting this working? See [aem-packager-example](https://github.com/amcline/aem-packager-example) for an example end-to-end NodeJS project that produces an installable AEM package.
+*   Need more help in getting this working? See [aem-packager-example](https://github.com/amcline/aem-packager-example) for an example end-to-end NodeJS project that produces an installable AEM package. However this repo uses the original package which may fail for latest version of jcr vault package plugin in some environments. So when using this example update the reference to `aem-packager-v2`
 *   Need to create AEM's clientlib folder structures and manifests? See [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator)
-
-[![NPM](https://nodei.co/npm/aem-packager.png)](https://nodei.co/npm/aem-packager/)
