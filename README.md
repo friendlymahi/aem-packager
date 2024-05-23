@@ -1,11 +1,11 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-![Run Tests](https://github.com/amclin/aem-packager/workflows/Run%20Tests/badge.svg)
+![Run Tests](https://github.com/friendlymahi/aem-packager/workflows/Run%20Tests/badge.svg)
 [![npm version](https://badge.fury.io/js/aem-packager.svg)](https://badge.fury.io/js/aem-packager)
 [![Dependencies Status](https://img.shields.io/librariesio/release/npm/aem-packager)]()
 [![codebeat badge](https://codebeat.co/badges/106d7699-204f-40da-ab0a-4f59ee5ec064)](https://codebeat.co/projects/github-com-amclin-aem-packager-master)
 
 # aem-packager
-
+`This repo is a fork from https://github.com/amclin/aem-packager which resolves an open issue with version of maven filevault-package-plugin`
 Creates AEM packages for NodeJS projects that can then be installed through the Adobe Experience Manager package manager. Combined with the [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) this provides a rich end-to-end workflow for developing JS and CSS for injection into AEM as components, libraries, applications, or contents.
 
 1.  [Using](#using)
@@ -261,7 +261,7 @@ Force the version number that will be used for the AEM content package. When not
 
 ## More Info
 
-*   Need more help in getting this working? See [aem-packager-example](https://github.com/amclin/aem-packager-example) for an example end-to-end NodeJS project that produces an installable AEM package.
+*   Need more help in getting this working? See [aem-packager-example](https://github.com/amcline/aem-packager-example) for an example end-to-end NodeJS project that produces an installable AEM package.
 *   Need to create AEM's clientlib folder structures and manifests? See [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator)
 
 [![NPM](https://nodei.co/npm/aem-packager.png)](https://nodei.co/npm/aem-packager/)

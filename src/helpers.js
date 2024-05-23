@@ -40,7 +40,7 @@ const getCommands = function (path) {
 }
 
 const getConfigsFromPackage = function () {
-  return _packageContents['aem-packager']
+  return _packageContents['aem-packager-v2']
 }
 
 /**

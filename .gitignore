@@ -63,3 +63,7 @@ typings/
 # Files generated dynamically when this plugin is run
 target/
 src/pom.xml
+
+.idea/*
+
+src/.DS_Store

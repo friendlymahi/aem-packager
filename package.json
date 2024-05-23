@@ -1,11 +1,11 @@
 {
-  "name": "aem-packager",
+  "name": "aem-packager-v2",
   "version": "3.1.5",
   "description": "A node plugin to package files into a bundle installable through the AEM package manager.",
   "main": "aem-packager.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amclin/aem-packager.git"
+    "url": "git+https://github.com/friendlymahi/aem-packager.git"
   },
   "keywords": [
     "AEM",
@@ -27,9 +27,9 @@
     "node": ">=14.0.0"
   },
   "bugs": {
-    "url": "https://github.com/amclin/aem-packager/issues"
+    "url": "https://github.com/friendlymahi/aem-packager/issues"
   },
-  "homepage": "https://github.com/amclin/aem-packager#readme",
+  "homepage": "https://github.com/friendlymahi/aem-packager#readme",
   "bin": {
     "aem-packager": "./aem-packager.js"
   },
