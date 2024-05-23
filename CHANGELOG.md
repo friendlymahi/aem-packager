@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/friendlymahi/aem-packager/compare/v1.0.0...v1.1.0) (2024-05-23)
+
+
+### Features
+
+* npm publish ([1741fad](https://github.com/friendlymahi/aem-packager/commit/1741fad6a2060e189c591cc0b335d8daeba5822e))
+* npm publish ([cde5cb2](https://github.com/friendlymahi/aem-packager/commit/cde5cb22bd8ac9bc5a736329f348d79560cf54b1))
+
 # 1.0.0 (2024-05-23)
 
 
