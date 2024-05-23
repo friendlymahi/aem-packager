@@ -24,7 +24,7 @@
   "author": "Anthony McLin",
   "license": "MIT",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18"
   },
   "bugs": {
     "url": "https://github.com/friendlymahi/aem-packager/issues"
